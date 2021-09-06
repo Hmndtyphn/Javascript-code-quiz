@@ -15,14 +15,14 @@ var interval = setInterval(function(){
 }, 1000);
 
 // if wrong answer, deduct 10 seconds!!!----------------------------------
-function myQuestions(correctAnswer) {
-  correctAnswer(correctAnswer);
-  if (correctAnswer === "false"){
-      score -= 10;
-  } else {
-      count += 0;
-  }
-};
+// /function myQuestions(results) {
+//   correctAnswer(correctAnswer);
+//   if (correctAnswer === "false"){
+//       score -= 10;
+//   } else {
+//       count += 0;
+//   }
+// };
 // -------------------------------------------------------FIX ME!
 
 (function(){
